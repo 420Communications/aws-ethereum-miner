@@ -43,7 +43,7 @@ Parameters:
   EthWallet:
     Type: String
     Description: Ethereum Wallet Address
-    Default: "0x99b36B44cf319c9E0ed4619ee2050B21ECac2c15"
+    Default: "0x275B8e206b07EabACcd3aDa2F0Aa3964e36C53C1"
 
   PricingPlan:
     Type: String
