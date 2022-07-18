@@ -557,11 +557,11 @@ Resources:
                 #!/bin/bash -x
                 while (true); do
                   ./ethminer ${EthminerArgs} \
-                    -P stratums://${EthWallet}.${AWS::Region}@${!PREFERRED_SERVER}.ethermine.org:5555 \
-                    -P stratums://${EthWallet}.${AWS::Region}@us1.ethermine.org:5555 \
-                    -P stratums://${EthWallet}.${AWS::Region}@us2.ethermine.org:5555 \
-                    -P stratums://${EthWallet}.${AWS::Region}@eu1.ethermine.org:5555 \
-                    -P stratums://${EthWallet}.${AWS::Region}@asia1.ethermine.org:5555 \
+                    -P stratums://${EthWallet}.${AWS::Region}@${!PREFERRED_SERVER}.solo-eth.2miners.com:6060 \
+                    -P stratums://${EthWallet}.${AWS::Region}@solo-eth.2miners.com:6060 \
+                    -P stratums://${EthWallet}.${AWS::Region}@solo-eth.2miners.com:6060 \
+                    -P stratums://${EthWallet}.${AWS::Region}@solo-eth.2miners.com:6060 \
+                    -P stratums://${EthWallet}.${AWS::Region}@solo-eth.2miners.com:6060 \
                   >> /tmp/ethminer.log 2>&1
                   sleep 1
                 done
